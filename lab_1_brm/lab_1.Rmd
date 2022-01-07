@@ -22,7 +22,7 @@ library(tmap)
 cmd-option-i shortcut for creating a code chunk
 
 ```{r}
-sf_trees <- read_csv(here('data', 'sf_trees', 'sf_trees.csv'), show_col_types = FALSE)
+sf_trees <- read_csv(here('data', 'sf_trees', 'sf_trees.csv'), show_col_types = FALSE) #
 ```
 
 ### Part 1: wrangling and ggplot review
